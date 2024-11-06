@@ -152,7 +152,7 @@ Las respuestas están cortadas debido a que se le puso un límite al output, per
 
 ### Resumen de los tres colabs
 
-En resumidas cuentas, creemos que tanto el colab 1 y el colab 3 han alcanzado las metas propuestas hasta el momento y sólo en el colab 2 tuvimos que abandonar la idea de realizar un pre-training a falta de tiempo. Sin embargo, considerando el imprevisto de que un miembro abandono el proyecto y sólo faltaría reorganizar la información; creemos que el proyecto será satisfactorio y lograra el cometido de introducir al lector en el mundo de los LLMs sin mayor problema. El colab se puede ver el el siguiente link: https://colab.research.google.com/drive/1g21Ib4liopkIyQcU2qdgZpMFizXcW5aw?usp=sharing
+En resumidas cuentas, creemos que tanto el colab 1 y el colab 3 han alcanzado las metas propuestas hasta el momento y sólo en el colab 2 tuvimos que abandonar la idea de realizar un pre-training a falta de tiempo. Sin embargo, considerando el imprevisto de que un miembro abandono el proyecto y sólo faltaría reorganizar la información; creemos que el proyecto será satisfactorio y lograra el cometido de introducir al lector en el mundo de los LLMs sin mayor problema. El colab se puede ver el el siguiente link: 
 
 ## Requisitos
 
@@ -161,6 +161,8 @@ En resumidas cuentas, creemos que tanto el colab 1 y el colab 3 han alcanzado la
 - Entusiasmo por aprender y colaborar en proyectos de IA.
 
 --- 
+## [EMPIEZA AQUÍ](https://colab.research.google.com/drive/1g21Ib4liopkIyQcU2qdgZpMFizXcW5aw?usp=sharing)
+---
 
 ## Recursos
 
