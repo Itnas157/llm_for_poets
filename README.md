@@ -161,7 +161,7 @@ En resumidas cuentas, creemos que tanto el colab 1 y el colab 3 han alcanzado la
 - Entusiasmo por aprender y colaborar en proyectos de IA.
 
 --- 
-## [EMPIEZA AQUÍ](https://colab.research.google.com/drive/1g21Ib4liopkIyQcU2qdgZpMFizXcW5aw?usp=sharing)
+## [Empezar curso](https://colab.research.google.com/drive/1g21Ib4liopkIyQcU2qdgZpMFizXcW5aw?usp=sharing)
 ---
 
 ## Recursos
