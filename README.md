@@ -8,7 +8,7 @@ Universidad Nacional de Córdoba, Facultad de Matemática, Astronomía, Física 
 
 <center>
 <i>
-Este proyecto presenta un itinerario educativo compuesto por tres colabs diseñados para guiar a los participantes en el uso de Grandes Modelos de Lenguaje (LLMs). Abarcamos desde la instalación y configuración de herramientas esenciales hasta el pre-entrenamiento y ajuste fino de modelos. Mediante prácticas guiadas y la participación en comunidades activas del campo, buscamos reducir las barreras técnicas que enfrentan los principiantes, facilitando el acceso a estas poderosas tecnologías. creemos que, con una estructura clara y el apoyo de una comunidad, los usuarios podrán no solo entender, sino también aplicar y personalizar los LLMs para resolver problemas específicos. Los participantes aprenderán a instalar y usar herramientas como Hugging Face y Google Colab, preparar datasets, entrenar modelos y aplicar técnicas de fine-tuning, con el objetivo de empoderar a más personas para aprovechar el potencial de los LLMs en sus proyectos.
+Este proyecto presenta un itinerario educativo compuesto por tres colabs diseñados para guiar a los participantes en el uso de Grandes Modelos de Lenguaje (LLMs por su sigla en inglés). Abarcamos desde la instalación y configuración de herramientas esenciales hasta el pre-entrenamiento y ajuste fino de modelos. Mediante prácticas guiadas y la participación en comunidades activas del campo, buscamos reducir las barreras técnicas que enfrentan los principiantes, facilitando el acceso a estas poderosas tecnologías. creemos que, con una estructura clara y el apoyo de una comunidad, los usuarios podrán no solo entender, sino también aplicar y personalizar los LLMs para resolver problemas específicos. Los participantes aprenderán a instalar y usar herramientas como Hugging Face y Google Colab, preparar datasets, entrenar modelos y aplicar técnicas de fine-tuning, con el objetivo de empoderar a más personas para aprovechar el potencial de los LLMs en sus proyectos.
 </i>
 </center>
 
@@ -36,123 +36,62 @@ En resumen, creemos que al facilitar el acceso, la práctica y el soporte comuni
 
 ## Objetivos
 
-- **Familiarizarse con los LLMs**: Proporcionar una comprensión básica sobre qué son los LLMs y cómo utilizarlos. Entender la configuración del entorno de trabajo para LLMs. Conectarse con las comunidades que desarrollan y colaboran en proyectos de LLMs.
+En base a cada una de nuestras hipotesis, hemos planteado los objetivos correspondientes:
 
-- **Entrenamiento y fine tuning**: Enseñar cómo pre-entrenar y ajustar modelos para tareas específicas. Comprender cómo entrenar un LLM con datos sin procesar y preparar datasets para el entrenamiento.Aplicar técnicas de fine tuning para adaptar un LLM a problemas concretos y poder evaluar el rendimiento de los modelos ajustados.
+1. **Familiarizarse con los LLMs**: Proporcionar una comprensión básica sobre qué son los LLMs y cómo utilizarlos. Entender la configuración del entorno de trabajo para LLMs. Conectarse con las comunidades que desarrollan y colaboran en proyectos de LLMs.
 
-- **Desarrollar comunidad**: Fomentar el trabajo colaborativo y la resolución de problemas en torno a los LLMs.
+2. **Entrenamiento y fine tuning**: Enseñar cómo pre-entrenar y ajustar modelos para tareas específicas. Comprender cómo entrenar un LLM y preparar datasets para el entrenamiento. Aplicar técnicas de fine-tuning para adaptar un LLM a problemas concretos.
 
----
-
-## Planificación inicial
-### Semana 1: Diseño General del Proyecto y Tareas
-#### Objetivos:
-- Definir con claridad el **alcance** del proyecto.
-- Desarrollar el **índice detallado** de cada colab.
-- Definir los **criterios de éxito** para cada colab y las expectativas de aprendizaje.
-- Revisión de **recursos externos** (cursos, colabs similares) para inspiración.
-
-### Semana 2: Desarrollo del Primer Colab (Instalación y Comunidad)
-
-#### **Objetivos**:
-- Desarrollar el **contenido del primer colab** centrado en la instalación y la conexión con la comunidad de LLMs.
-- Definir ejercicios prácticos para los usuarios sobre la instalación de bibliotecas y modelos.
-- Creación de ejercicios sencillos de exploración con **modelos preentrenados**.
-
-#### **Descripción del Colab**:
-- Enseñar cómo instalar y usar los entornos necesarios (Colab, Transformers).
-- Introducción a la comunidad de LLMs (Hugging Face, repositorios, documentación).
-
-#### **Temas**:
-  - Instalación de bibliotecas clave (Transformers, Tokenizers).
-  - Uso básico de modelos preentrenados.
-  - Introducción a recursos comunitarios y cómo participar.
-
-### Semana 3: Desarrollo del Segundo Colab (Pre-Training de un Modelo)
-#### Objetivos:
-- Crear el contenido detallado sobre **pre-entrenamiento** de modelos, desde la obtención de datos hasta la ejecución del pre-entrenamiento.
-- Escribir el contenido teórico que explique el **pre-entrenamiento**.
-- Preparar ejemplos de cómo obtener y procesar datasets.
-- Pruebas de ejecución del colab para asegurar que funcione correctamente en distintos entornos.
-
-#### **Descripción del Colab**: 
-  Exploraremos el proceso de preentrenamiento de un modelo desde cero utilizando datasets y entenderemos la diferencia entre pre-training y fine tuning
-  
-#### **Temas**:
-  - Obtención y procesamiento de datos.
-  - Arquitectura de LLMs.
-  - Ejecución del pre-entrenamiento en GPU.
-
-
-
-### Semana 4: Desarrollo del Tercer Colab (Fine-Tuning de Modelos)
-#### **Objetivos**:
-- Desarrollar el colab de **fine-tuning** para adaptar un modelo preentrenado a tareas específicas.
-- Escribir el contenido teórico sobre **fine-tuning**.
-- Desarrollar ejercicios prácticos para tareas como clasificación de texto o análisis de sentimientos.
-- Definir y documentar **métodos de evaluación** de modelos para medir el rendimiento post fine-tuning.
-
-#### **Descripción del colab**: 
-  Ajustaremos un modelo preentrenado para tareas específicas (de ahí el nombre "fine-tuning"), como clasificación de texto, generación de texto o análisis de sentimientos entre muchas otras posibilidades.
-
-#### **Temas**:
-  - Preparación de datasets específicos.
-  - Métodos de fine-tuning.
-  - Evaluación y optimización de resultados.
-
-## Semana 5: Integración, Revisión Final y Documentación
-**Objetivos**:
-- Revisar los tres colabs, integrar los ajustes finales y preparar la **documentación** del proyecto completo.
-- Revisión detallada de cada colab, asegurando coherencia y claridad en las instrucciones.
-- Agregar **explicaciones adicionales** donde sea necesario, mejorar la fluidez del lenguaje.
+3. **Desarrollar comunidad**: Fomentar el trabajo colaborativo y la resolución de problemas en torno a los LLMs.
 
 ---
 
-## Avances y desviaciones
+## Estado final
 
-Durante el proyecto, uno de los miembros abandonó la materia debido a temas personales. Esto complicó el avance inicial del proyecto. Sin embargo, el proyecto sigue en buen desarrollo hasta la fecha y se espera poder terminar sin complicaciones adicionales.
+### Colab 1: [Introducción](https://colab.research.google.com/drive/1g21Ib4liopkIyQcU2qdgZpMFizXcW5aw?usp=sharing)
 
-En cuanto al avance realizado, se han terminado los tres colabs en una versión más básica de la que esperaba pero funcional. Por lo que el obejtivo actual es utilizar el tiempo que queda para refinar los colabs en lugar de agregar más caracteristicas.
+En la introducción se presenta todo el planteamiento necesario para familiarizarse con los LLMs; cumpliendo el primer objetivo planteado. Aunque explicamos conceptos más técnicos cómo lo son los transformers con los decoders y encoders, tratamos de no sobrecargar al usuario de información y sólo ayudarles a razonar cómo funcionan concptualmente sin abordar en lo que son las redes neuronales o temas más complejos.
 
-### Colab 1: Introducción
+A su vez, en este colab enseñamos cómo crearse cuentas en las plataformas de HuggingFace y Weights&Biases, y generar los tokens de acceso que le permitirán vincular su cuenta a los siguientes colabs. Esto con el fin de arrimar al lector a iniciarse en la comunidad, aunque el objetivo correpondiente no se completa en un colab concreto; sino que a lo largo de los tres colabs el beneficio de la comunidad se hace presente al bajar y subir modelos y datasets de HuggingFace.
 
-El colab 1 cuenta con toda la información necesaria para el entendimiento básico de lo que abarcan los dos colabs posteriores a su vez que ayudamos al lector a iniciar en comunidades orientadas al campo cómo lo es Hugging Face. Se buscará organizar la información para hacerla más 'digerible' al lector.
+### Colab 2: [Pre-training](https://colab.research.google.com/drive/14WAuWa-fBBM2tT93QtuwSAJZ2PgdU-8o?usp=sharing)
 
-### Colab 2: Pre-training
+Aunque en un principio teníamos empezado realizar un entrenamiento desde cero, notamos que la cantidad de tiempo requerida era demasiado alta para el lector del curso. A su vez, esto requería un mayor entendimiento de lo que estamos haciendo de parte del lector, aumentando la dificultad del curso y limitando a los posibles interesados.
 
-En el colab 2 importamos modelos pre-training de hugging-face y enseñamos al lector a utilizarlos. No realizamos un pre-training debido a lo costoso que es, pero nos aseguramos de explicar aún más la diferencia entre pre-training y fine-tuning, y otorgar el conocimiento básico para que el lector pueda implementar el pre-training de así quererlo. Nos proponemos a añadir evaluaciones multiples choice para comprobar que el lector entendió el contenido cómo sugerencia de uno de los feedbacks recibido.
+Debido a esto, se decidio optar por enseñar al usuario cómo interactuar con los modelos ya pre-entrenados. Ya que cómo lo planteamos en nuestra primer hipotesis, queremos que el proceso de instalación y configuración sea accesible. Por lo que mientras el colab 1 ayuda al usuario a entender lo que son los LLMs, en el colab 2 se le permite al usuario experimentar con ellos y usarlos (Particularmente con GPT-2 y BERT)
 
-### Colab 3: Fine-tuning
+A su vez, se sigue mostrando al lector la importancia de la comunidad de una manera implicita. Pues los modelos y datasers utilizados fueron traídos desde la comunidad (HuggingFace).
 
-En el colab 3 realizamos fine-tuning sobre un modelo ya pre-entrando y enseñamos el proceso paso a paso. Previo al fine-tuning se le dio al modelo importado (GPT-2) el siguiente input:
+Eso sí, aunque el desarrollo de la comunidad y mostrar su utilidad tiene un eje central en este proyecto. También se le proporciona al usuario el conocimiento para descargar y subir modelos de manera local, teniendo el LLM cómo un archivo en el sistema. Esto es porque aunque queremos que el lector se acerque a la comunidad, no buscamos que dependa de esta; sino que tenga presente que no es obligatorio y siempre puede trabajar de manera local sobre sus modelos.
 
->***¿Qué es la dignidad?***
+### Colab 3: [Fine-tuning](https://colab.research.google.com/drive/1mZKYgpJ9tM-1_8FTLKwkFjpuv9hNGlnS?usp=sharing)
 
-A lo que respondió:
+El tercer colab fue el más complicado de acercar al lector. Cómo este curso busca ser accesible, tuvimos que buscar un fino equilibrio entre cuanta información meter y cómo simplificarla para no saturar al lector y que deje el curso. Es por eso que optamos por dos estrategias para que la información sea lo más digerible posible:
 
->¿Qué es la dignidad? 
->
->—Nada —respondió él. 
->
->—¿A qué ha venido? 
->
->—No te sigo queriendo. 
->
->—¿Por qué no? 
->
->—¿Qué sabes de la educación? 
->
->—Es
+1. Memes: ¡Sí, memes! Sabemos que la curva de aprendizaje puede ser intensa, así que decidimos aligerarla con humor. Aunque no quisimos saturar el colab de memes, sabemos que una forma de retener la atención del lector es darle una pequeña dosis de humor por aquí y por alla que lo mantengan interesados en el contenido.Además, relacionando el humor con los temas especificos del colab, no solo arrancan una sonrisa, sino que refuerzan los conceptos de forma memorable. La propuesta fue tal, que los memes se incluyeron en el primer y segundo colab también. Al final, si algo te hace reír, es mucho más difícil olvidarlo.
+2. Mantener la información técina al mínimo: Por ejemplo sin abordar mucho en los hiperparametros de entrenamiento, buscamos que el lector pueda realizar el fine-tuning entendiendo 2 o 3 parametros claves y que no se sature, dejando el curso por la cantidad de opciones. A su vez, limitamos la información de este colab solo a lo necesario, es por eso que la división de un dataset en datos de entrenamiento y evaluación se realizó previamente. Sin embargo, tampoco podemos no explicar nada al lector, por lo que damos una breve explicación del resto de hiperparametros por si el usuario está interesado en aprender su cuenta, y enseñarmos de una manera visual a reconocer si el dataset es optimo para el fine-tuning, o cómo aplicarle un pequeño filtro rápido.
 
-Posterior al fine-tunind respondió:
+Todo esto con el sólo proposito de hacer tan fácil de entender cómo sea posible el proceso de fine-tuning.
 
->¿Qué es la dignidad? La dignidad de una persona depende tanto de la dignidad como de la dignidad, la inteligencia y la conciencia de sí mismo. Se les elige a personas como iguales, que sean más honoríficas en las condiciones de las que son
+### Sobre los objetivos y las hipotesis planteados...
 
-Las respuestas están cortadas debido a que se le puso un límite al output, pero se puede apreciar cómo en el primer caso interpreta el input cómo un dialogo y simula una conversación, mientras que posterior al fine-tuning reconoce que es una pregunta y otorga una respuesta. Esto es gracias a que se utilizó un dataset de OSCAR (Open Super-large Crawled ALMAnaCH coRpus), con el objetivo de realizar fine-tuning para que sus respuestas contenga información más precisa y demostrar la utilidad practida de los modelos LLMs.
+El colab 1 cumple con nuesto primer objetivo (**Familiarizarse con los LLMs**) a un nivel conceptual, mientras que el colab 2 lo hace a un nivel más practico y permitiendo que el usuario lo replique con su propio código. El colab 3 (y el colab 2 en menor medida al hacer la división del dataset) cumpliría con el segundo objetivo (**Entrenamiento y fine tuning**). Y el último objetivo (**Desarrollar comunidad**) sería completado a lo largo de los 3 colabs de diferentes maneras.
 
-### Resumen de los tres colabs
+En cuanto a las hipótesis planteadas, estas sirvieron como brújula para el diseño y la estructura del proyecto. La idea de que la instalación y configuración accesible es clave para democratizar el uso de LLMs se integró directamente en el colab 1, donde priorizamos guías paso a paso para configurar herramientas como Hugging Face y Weights&Biases, asegurándonos de que incluso usuarios con conocimientos básicos pudieran seguir el proceso sin frustraciones técnicas. Esto también motivó la inclusión de ejemplos prácticos descargables y una aproximación más visual que textual.
 
-En resumidas cuentas, creemos que tanto el colab 1 y el colab 3 han alcanzado las metas propuestas hasta el momento y sólo en el colab 2 tuvimos que abandonar la idea de realizar un pre-training a falta de tiempo. Sin embargo, considerando el imprevisto de que un miembro abandono el proyecto y sólo faltaría reorganizar la información; creemos que el proyecto será satisfactorio y lograra el cometido de introducir al lector en el mundo de los LLMs sin mayor problema. El colab se puede ver el el siguiente link: 
+La hipótesis de que el pre-entrenamiento y ajuste de modelos podría ser comprendido con pasos claros y prácticos fue el eje central del segundo y tercer colab. Reducimos la cantidad de conceptos avanzados para mantener la atención del lector, limitando las explicaciones técnicas a lo estrictamente necesario, como los parámetros esenciales del fine-tuning. A la vez, optamos por una narrativa más amigable, apoyada por ejemplos específicos y memes, para reforzar la retención y hacer más llevadero el aprendizaje.
+
+Finalmente, la hipótesis sobre la importancia de la comunidad quedó reflejada en cómo estructuramos la interacción con plataformas como Hugging Face, no solo para descargar y usar modelos, sino también para mostrar el valor de la colaboración y el intercambio de conocimientos. Aunque no podemos aún medir directamente el impacto en los usuarios, la integración de estas ideas en cada colab buscó maximizar el potencial de aprendizaje y aplicación de los participantes.
+
+### Feedback de otros grupos
+
+A partir del feedback recibido de otros grupos, hemos implementado varias mejoras clave en nuestro proyecto. Una de las principales fue el ajuste de un modelo paso a paso con fines didácticos, disponible en el colab 3, diseñado para facilitar el aprendizaje práctico del proceso de fine-tuning. Además, incluimos tres cuestionarios —uno al final de cada colab— para que los usuarios puedan autoevaluar su comprensión y progreso en los temas tratados.
+
+Sin embargo, algunas sugerencias, como definir claramente el propósito del modelo ajustado y abordar aplicaciones más realistas de los modelos, no fueron implementadas en su totalidad debido a desafíos logísticos. Originalmente, planeamos utilizar el dataset [Twitter Genderbias](https://huggingface.co/datasets/argilla/twitter-genderbias) para ajustar GPT-2 y abordar la problemática de género en respuestas automáticas. Esto habría cumplido ambos objetivos: un enfoque práctico y una aplicación concreta.
+
+Lamentablemente, la salida inesperada de un integrante y la falta de tiempo nos llevaron a priorizar un enfoque más general. Optamos por mostrar el proceso de ajuste como un ejemplo replicable, dejando abierta la posibilidad de que los usuarios apliquen los conceptos aprendidos a sus propios casos de uso. Si bien esta decisión limitó la profundidad en la aplicación específica, se alineó con el propósito central del proyecto: facilitar el aprendizaje práctico y permitir que los usuarios comprendan y adapten los modelos según sus necesidades.
+
+---
 
 ## Requisitos
 
@@ -160,8 +99,6 @@ En resumidas cuentas, creemos que tanto el colab 1 y el colab 3 han alcanzado la
 - Familiaridad con el uso de Google Colab.
 - Entusiasmo por aprender y colaborar en proyectos de IA.
 
---- 
-## [Empezar curso](https://colab.research.google.com/drive/1g21Ib4liopkIyQcU2qdgZpMFizXcW5aw?usp=sharing)
 ---
 
 ## Recursos
@@ -171,17 +108,20 @@ Entornos y plataformas usados
 - [Documentación de Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
 - [Weights & Biases](https://wandb.ai/)
 
-Otros trabajos a chequear
-- [1.0 Using pretrained LLM for text classification](https://colab.research.google.com/drive/1h3hQ8anuKjoWJXz12p-OgwduBpYQB7rI?usp=sharing)
+Trabajos previos y recomendables: Todos fueron utilizados cómo referencia para ayudar a armar este proyecto.
+- [1.0 Using pretrained LLM for text classification](https://colab.research.google.com/drive/1h3hQ8anuKjoWJXz12p-OgwduBpYQB7rI?usp=sharing) (está en inglés)
 - [Taller: Modelos de lenguaje a tu medida](https://github.com/nanom/llm_adaptation_workshop)
-- [Curso de etica en IA](https://www.metadocencia.org/en/curso/etica_en_ia/)
+- [Curso de etica en IA](https://www.metadocencia.org/en/curso/etica_en_ia/) (inglés)
+- Hands-On Large Language Models, J. Alammar & M. Grootendor. (libro)
 
-Modelos y Datasets utilizados
-- [BERT](https://huggingface.co/google-bert/bert-base-uncased)
-- [GPT-2](https://huggingface.co/openai-community/gpt2)
-- [GPT-2 Español](https://huggingface.co/DeepESP/gpt2-spanish)
-- [Dataset: Twitter Genderbias](https://huggingface.co/datasets/argilla/twitter-genderbias)
-- [Dataset: Oscar small](https://huggingface.co/datasets/nthngdy/oscar-small)
+Modelos
+- [BERT](https://huggingface.co/google-bert/bert-base-uncased): Modelo para explicar el decoder.
+- [GPT-2](https://huggingface.co/openai-community/gpt2): Modelo base para luego ser reemplazado por una versión en español, en un afán de animar al usuario a buscar modelos según las necesidades.
+- [GPT-2 Español](https://huggingface.co/DeepESP/gpt2-spanish): Modelo principalmente usado.
+
+Datasets
+- [Twitter Genderbias](https://huggingface.co/datasets/argilla/twitter-genderbias): Usado en el colab 2 para demostrar cómo manejar datasets.
+- [Oscar small](https://huggingface.co/datasets/nthngdy/oscar-small): Usado en el colab 3 para el fine-tuning.
 
 ---
 
